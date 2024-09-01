@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .container {
+        display: flex;
+        gap: 20px;
+      }
+      .box {
+        background-color: cadetblue;
+        padding: 20px;
+      }
+      .container-2 {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        flex-wrap: wrap;
+        margin-top: 30px;
+      }
+      .item {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        background-color: seagreen;
+        height: 200px;
+        width: 200px;
+      }
+      @media screen and (max-width: 576px) {
+        .container {
+          flex-direction: column;
+        }
+        .item {
+          width: 100%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Responsive Layout</h1>
+    <div class="container">
+      <div class="box">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro,
+        distinctio officia nihil ad voluptates molestiae assumenda saepe, itaque
+        eum pariatur facere, natus quam beatae vitae nulla odio et adipisci!
+        Voluptatibus!
+      </div>
+      <div class="box">
+        Consectetur quia nostrum nihil perspiciatis rem sed tempore, fugiat
+        voluptates ea unde reiciendis nesciunt et in soluta harum modi amet
+        ipsam, delectus ipsa quod. Nihil sint veniam reiciendis non amet.
+      </div>
+    </div>
+    <div class="container-2">
+      <div class="item">
+        <p>item-1</p>
+      </div>
+      <div class="item">
+        <p>item-2</p>
+      </div>
+      <div class="item">
+        <p>item-3</p>
+      </div>
+      <div class="item">
+        <p>item-4</p>
+      </div>
+      <div class="item">
+        <p>item-5</p>
+      </div>
+      <div class="item">
+        <p>item-6</p>
+      </div>
+      <div class="item">
+        <p>item-7</p>
+      </div>
+      <div class="item">
+        <p>item-8</p>
+      </div>
+      <div class="item">
+        <p>item-9</p>
+      </div>
+      <div class="item">
+        <p>item-10</p>
+      </div>
+      <div class="item">
+        <p>item-11</p>
+      </div>
+      <div class="item">
+        <p>item-12</p>
+      </div>
+    </div>
+  </body>
+</html>
